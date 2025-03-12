@@ -2,11 +2,11 @@
 
 ## Supported Versions
 
-| Version | Supported          |
+| Version | Status             |
 | ------- | ------------------ |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.3.x   | ✅ Supported       |
+| < 1.3   | ❌ Not Supported    |
 
 ## Reporting a Vulnerability
 
-Email hexagon@56k.guru. Do NOT report an issue, we will have a look at it asap.
+If you discover a vulnerability, please report it via email to [runbgp@ix0.io](mailto:runbgp@ix0.io). Do not create an issue in the repository; we will address your report as soon as possible.

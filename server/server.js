@@ -1,23 +1,26 @@
 #!/usr/bin/env node
 
-const
-	handler = require('serve-handler'),
-	port = process.env.PORT || 8080,
-	path = require('path');
+import handler from 'serve-handler';
+import { createServer } from 'http';
+import { Server } from 'socket.io';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-let
-	server,
-	io;
+const port = process.env.PORT || 8080;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+let server, io;
 
 // Create http server, handle files.assets
-server = require('http').createServer(function (req, res) {
+server = createServer(function (req, res) {
 	return handler(req, res, {
 		public: path.resolve(__dirname, '../client/public')
 	});
 });
 
 // Append socket.io to http server
-io = require('socket.io')(server),
+io = new Server(server);
 
 // Listen to port env:PORT or 8080
 server.listen(port, function(){

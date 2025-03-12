@@ -15,7 +15,7 @@ export default {
 		'░          ░░   ░ ▒ ▒ ░░  ░░         ░        ░   ▒     ░ ░   ░ ░░ ░  \n' +
 		'░ ░         ░     ░ ░                             ░  ░    ░  ░░  ░    \n' +
 		'░                 ░ ░                                                 \n' +
-		'                                  https://github.com/hexagon/cryptalk \n' +
+		'                                  https://github.com/runbgp/cryptalk  \n' +
 		'                                                                      \n' +
 		' Tip of the day: /help                                                \n' +
 		'----------------------------------------------------------------------' +
