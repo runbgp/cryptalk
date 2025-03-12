@@ -1,6 +1,7 @@
 ![cryptalk](/screenshot.png)
 
-![Node.js CI](https://github.com/runbgp/cryptalk/workflows/Node.js%20CI/badge.svg?branch=master)
+![Node.js CI](https://github.com/runbgp/cryptalk/actions/workflows/node.js.yml/badge.svg)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b96b4b6aa6df417aafd3d823a722e30f)](https://app.codacy.com/gh/runbgp/cryptalk/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 # Cryptalk
